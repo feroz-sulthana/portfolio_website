@@ -2011,3 +2011,45 @@ footer {
         font-size: 28px !important;
     }
 }
+@media screen and (max-width: 768px) {
+
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        width: 220px !important;
+        height: 220px !important;
+        max-width: 80vw !important;
+
+        /* IMPORTANT */
+        object-fit: contain !important;
+
+        border-radius: 50%;
+        display: block;
+    }
+
+    .about-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 220px !important;
+        height: 220px !important;
+        max-width: 80vw !important;
+
+        /* IMPORTANT */
+        object-fit: contain !important;
+
+        border-radius: 30%;
+        display: block;
+
+        margin: 0 !important;
+    }
+}
